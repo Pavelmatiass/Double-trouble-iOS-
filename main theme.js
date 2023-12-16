@@ -7,7 +7,7 @@ const createDiscordMessage = (error) => {
         "title_link":  error.incident.url,
         "fields": [{
         "title": error.incident.state,
-
+// here we getting the results
     "exception_info": {
       "type": "string, type of the exception logged in the event.",
       "message": "string, exception message for the event."
